@@ -1,0 +1,53 @@
+h1 { 
+    color: white;
+    font-size: 60pt;
+    background-color: #31558e;
+       
+}
+
+img {
+    width: 100vw;
+    height: 50vh;
+    border: 2px solid black;
+
+}
+
+.legenda {
+
+}
+
+p{
+    color: white;
+
+}
+.texto {
+
+}
+
+button {
+
+}
+
+body{
+    background-color: black;
+}
+
+.container {
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: black;
+
+}
+
+.container a {
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+
+.container a:hover{
+    font-size: 25px;
+    color: #efbf2f;
+}
