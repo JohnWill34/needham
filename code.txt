@@ -1,9 +1,20 @@
-cd desktop/
+cd desktop/                                                                [CHAMANDO O DESKTOP]         
+cd John                                                                    [CHAMANDO A PASTA]
+git status                                                                 [CHAMANDO O STATUS]
+git                                                                        [CHAMANDO TODOS COMMENTÁRIOS]
+git init                                                                   [CRIAR REPOSITÓRIO]
+git log                                                                    [CHAMANDO TODAS INFORMAÇÕES]
+git add .                                                                  [ADCIONAR AS COISAS]
+git config user.name "Jonathan"                                            [CRIANDO DONO DO ARQUIVO]
+git config user.email "jwps.34@hotmail.com"                                [CRIANDO EMAIL DO DONO DO ARQUIVO]
+touch index.html                                                           [CHAMAR O ARQUIVO index.html]
+git add .                                                                  [ADCIONAR AS COISAS]
+git commit -m "add sei lá                                                  [ADICIONAR COMENTÁRIO] 
+code .                                                                     [ABRIR VISUAL STUDIO]
+git status .                                                               [STATUS DAS INFO]
+git log                                                                    [INFORMAÇÕES]
+mkdir imagens                                                              [CRIAR PASTA "IMAGENS"]
 
-git add . 
-
-
-                                                                           [MESMA FUNÇÃO NO HTML]
 <div></div>
 <nav></nav>
 <selection></selection>
@@ -38,4 +49,22 @@ nav a:hover{                                                                 [QU
     color: coral;
     font-size: 22pt;
 }
+
+header{                                                                      [SEGUNDA PARTE DO SITE]
+    width: 100%;                                                             [OCUPAR 100% DA HORIZONTAL]
+    height: 600px;                                                           [600PX DE ALTURA]
+    background-image: url(imagens/FOTO1.jpg);                                [PUXANDO A IMAGEM DA PASTA]
+    background-size: cover;                                                  [COBRIR TUDO PARA IMAGEM NÃO REPETIR]
+}
+header h1{                                                                   [APENAS PARA MUDAR AS INFO DO H1]
+    margin-left: 50px;
+    font-size: 80px;
+    color: rgb(132, 0, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+span{                                                                        [ADOTAR CARACTERÍSTICA ÚNICA A UM ITEM]
+    color: deeppink;
+    font-size: 100px;
+}
+
      

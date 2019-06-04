@@ -20,16 +20,30 @@ nav a{
 }
 
 nav a:first-child{
-    color: red;
-
-}
-nav a:nth-child(2){
-    color: blue;
+    color: rgb(132, 0, 255);
 }
 
 nav a:hover{
     color: coral;
-    font-size: 60px;
+    font-size: 30px;
 }
 
+header{
+    width: 100%;
+    height: 600px;
+    background-image: url(imagens/FOTO1.jpg);
+    background-size: cover;
+
+    display: flex;
+    align-items: center; 
+}
+header h1{
+    margin-left: 50px;
+    font-size: 80px;
+    color: rgb(132, 0, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+span{
+    color: deeppink;
+    font-size: 100px;
 }
