@@ -1,53 +1,35 @@
-h1 { 
-    color: white;
-    font-size: 60pt;
-    background-color: #31558e;
-       
-}
-
-img {
-    width: 100vw;
-    height: 50vh;
-    border: 2px solid black;
-
-}
-
-.legenda {
-
-}
-
-p{
-    color: white;
-
-}
-.texto {
-
-}
-
-button {
-
-}
-
 body{
-    background-color: black;
+    margin: 0;
 }
 
-.container {
-    margin-left: 80px;
+nav{
+    background-color: yellow;
+    height: 50px;
     display: flex;
-    justify-content: space-between;
-    align-items: center; 
-    background-color: black;
-
+    align-items: center;
+    justify-content: space-around; 
 }
 
-.container a {
+nav a{
+    font-size: 20pt;
+    color: black;
     text-decoration: none;
-    color: white;
-    transition: 1s;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 
-.container a:hover{
-    font-size: 25px;
-    color: #efbf2f;
+nav a:first-child{
+    color: red;
+
+}
+nav a:nth-child(2){
+    color: blue;
+}
+
+nav a:hover{
+    color: coral;
+    font-size: 60px;
+}
+
 }

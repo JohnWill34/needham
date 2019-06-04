@@ -1,0 +1,41 @@
+cd desktop/
+
+git add . 
+
+
+                                                                           [MESMA FUNÇÃO NO HTML]
+<div></div>
+<nav></nav>
+<selection></selection>
+<header></header>
+<footer></footer>
+<aside></aside>
+
+background-color: yellow;                                                    [COR DO FUNDO]
+    height: 50px;                                                            [ALTURA]
+    display: flex;                                                           [ORGANIZAÇÃO]
+    align-items: center;                                                     [ALINHAMENTO ALTURA]
+    justify-content: space-around;                                           [ALINHAMENTO ENTRE CONTEÚDOS]
+
+nav a{                                                                       [ÂNCORAS APENAS DA NAV]
+    font-size: 20pt;                                                         [TAMANHO FONTE]
+    color: black;                                                            [COR DA FONTE]
+    text-decoration: none;                                                   [SEM DECORAÇÃO]
+    font-weight: bolder;                                                     [COLOCAR NEGRITO]
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  [ FONTES DO PC ] 
+
+}
+
+nav a:first-child{                                                           [PRIMEIRO ITEM DA NAV]
+    color: red;
+
+}
+nav a:nth-child(2){                                                          [SEGUNDO ITEM DA NAV]
+    color: blue;
+}
+
+nav a:hover{                                                                 [QUANDO PASSAR O MOUSE, MUDA]
+    color: coral;
+    font-size: 22pt;
+}
+     
