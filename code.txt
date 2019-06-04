@@ -18,6 +18,8 @@ git diff                                                                   [TODA
 git log                                                                    [INFORMAÇÕES]
 mkdir imagens                                                              [CRIAR PASTA "IMAGENS"]
 ls                                                                         [CONSULTA NA PASTA]
+git remote add origin http:xxxxxxxxxx                                      [LINKAR NA REDE]
+git push origin master                                                     [SOBE NA REDE]
 
 HTML CODE ------------------------------------------------------------------------------------------------------------
 
