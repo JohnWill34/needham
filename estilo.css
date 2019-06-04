@@ -47,3 +47,43 @@ span{
     color: deeppink;
     font-size: 100px;
 }
+
+section{
+    background-color: red;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+section div{
+    align-items: center;
+    background-color: azure;
+    border: 10px solid green;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 200px;
+    justify-content: space-around;
+
+}
+
+section div input::placeholder{
+    font-size: 10pt;
+    color: yellowgreen;
+}
+
+section div input:focus{
+    background-color: gray;
+}
+
+section div input{
+    border-radius: 10px;
+
+}
+
+section div button{
+    background-color: blueviolet;
+    cursor: pointer;
+}

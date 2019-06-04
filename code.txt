@@ -1,3 +1,5 @@
+GIT HUB ---------------------------------------------------------------------------------------------------- GIT BASH
+
 cd desktop/                                                                [CHAMANDO O DESKTOP]         
 cd John                                                                    [CHAMANDO A PASTA]
 git status                                                                 [CHAMANDO O STATUS]
@@ -12,8 +14,12 @@ git add .                                                                  [ADCI
 git commit -m "add sei lá                                                  [ADICIONAR COMENTÁRIO] 
 code .                                                                     [ABRIR VISUAL STUDIO]
 git status .                                                               [STATUS DAS INFO]
+git diff                                                                   [TODAS INFORMAÇÕES]
 git log                                                                    [INFORMAÇÕES]
 mkdir imagens                                                              [CRIAR PASTA "IMAGENS"]
+ls                                                                         [CONSULTA NA PASTA]
+
+HTML CODE ------------------------------------------------------------------------------------------------------------
 
 <div></div>
 <nav></nav>
@@ -21,6 +27,8 @@ mkdir imagens                                                              [CRIA
 <header></header>
 <footer></footer>
 <aside></aside>
+
+CSS -------------------------------------------------------------------------------------------------------------------
 
 background-color: yellow;                                                    [COR DO FUNDO]
     height: 50px;                                                            [ALTURA]
@@ -66,5 +74,44 @@ span{                                                                        [AD
     color: deeppink;
     font-size: 100px;
 }
+section{                                                                     [ADCIONA SESSÃO]
+    background-color: red;
+    height: 300px;
+    width: 100%;
+    display: flex;                                                           [QUEREMOS AJUSTAR A DIV, MAS QUEM CONTROLA É A SECTION]
+    justify-content: center;                                                 [JUSTIFICA OS CONTEÚDOS E AÍ ENTÃO ALINHA]
+}
+}
 
+section div{                                                                 [ARRUMANDO OS ITENS DIV]
+    align-items: center;                                                     [ALINHANDO APENAS DIV]
+    background-color: azure;
+    border: 10px solid green;                                                [COLOCANDO BORDA SELECIONANDO OS PIX, TIPO E COR]
+    border-radius: 5px;                                                      [RAIO NA BORDA]
+    display: flex;
+    flex-direction: column;                                                  [ALINHAR ITENS EM COLUNA]
+    height: 100%;
+    width: 200px;
+
+}
+
+
+section div input::placeholder{                                              [NOS TEXTOS DENTRO DA ONDE O USUÁRIO COLOCA INFO]
+    font-size: 10pt;
+    color: yellowgreen;
+}
+
+section div input:focus{                                                    [QUANDO CLICAR NA BOX DE INFORMAÇÕES, ELA MUDA] 
+    background-color: gray;
+}
+
+section div input{                                                          []
+    border-radius: 10px;
+
+}
+
+section div button{
+    background-color: blueviolet;
+    cursor: pointer;
+}
      
